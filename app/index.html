@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="d3App">
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GENFARE TC</title>
+
+    
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    	<style>
+
+  .bar{
+    fill: steelblue;
+  }
+
+  .bar:hover{
+    fill: brown;
+  }
+
+	.axis {
+	  font: 10px sans-serif;
+	}
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+.bar2 {
+  fill: #0080FF;
+  stroke: black;
+  stroke-width: 5
+}
+.text {
+  fill: white;
+  font-family: sans-serif
+}
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+text {
+  font: 10px sans-serif;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text { font: 12px sans-serif; }
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+	</style>
+
+   </head>
+
+<body>
+ 
+    <div ui-view></div>
+
+ 
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!--<script src="http://d3js.org/d3.v3.min.js"></script>-->
+
+<script type="text/javascript" src="vendor/angular.min.js"></script>
+<script type="text/javascript" src="vendor/angular-messages.js"></script>
+<script type="text/javascript" src="vendor/angular-resource.js"></script>
+<script type="text/javascript" src="vendor/angular-ui-router.js"></script>
+<!--<script type="text/javascript" src="vendor/select.js"></script>
+<script type="text/javascript" src="vendor/angular-sanitize.js"></script>-->
+
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="json-barchart/barChart.controller.js"></script>
+<script type="text/javascript" src="json-Clean-barChart/cleanBarChart.controller.js"></script>
+<script type="text/javascript" src="json-piechart/pieChart.controller.js"></script>
+<script type="text/javascript" src="json-lineChart/lineChart.controller.js"></script>
+<script type="text/javascript" src="json-bubbleChart/bubbleChart.controller.js"></script>
+<script type="text/javascript" src="json-treeChart/treeChart.controller.js"></script>
+<script type="text/javascript" src="json-areaChart/areaChart.controller.js"></script>
+
+</body>
+</html>

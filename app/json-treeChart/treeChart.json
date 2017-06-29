@@ -1,0 +1,20 @@
+{
+  "name": "Top Level",
+  "children": [
+    { 
+      "name": "Level 2: A",
+      "children": [
+        { "name": "Son of A" },
+        { "name": "Daughter of A" },
+        { "name": "Gay of B" }
+      ]
+    },
+    { "name": "Level 2: B",
+    "children": [
+        { "name": "Son of B" },
+        { "name": "Daughter of B" },
+        { "name": "Gay of B" }
+      ]
+      }
+  ]
+}

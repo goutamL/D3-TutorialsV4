@@ -1,0 +1,212 @@
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+.nav > li > a{
+	padding:5px 15px;
+}
+.nav-pills li a {
+	color: #000;
+}
+.nav-pills li a:hover{
+	color: #000;
+	background-color: transparent;
+}
+.nav-pills > li.active > a {
+  background: #f9f9f9  !important;
+  border-left: 3px solid #c0d99f;
+  border-radius:0;
+  padding:5px 15px;
+  color:#000;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+	color: #000;
+}
+.admin-tc-section .panel{
+	-moz-box-shadow:    0px 1px 5px 0px #ccc;
+  -webkit-box-shadow: 0px 1px 5px 0px #ccc;
+  box-shadow:         0px 1px 5px 0px #ccc;
+}
+.panel .panel-title{
+	font-weight: 600;
+}
+.reset-margin{
+	margin: 0;
+} 
+.reset-padding{
+	padding: 0;
+}
+.action-btns{
+	margin-bottom:10px;
+}
+.action-btns .btn{
+	width: 140px;
+	height: 35px;
+	background-color: transparent;
+	border: 1px solid silver;
+	border-radius: 0;
+	color: #000;
+	font-size: 14px;
+	padding: 5px 20px;
+}
+.full-block-input,.payment-select{
+	width: 100%;
+	padding: 5px;
+}
+.full-block-input input{
+    border-radius: 0;	
+}
+.payment-select{
+	margin-top: 18px;
+}
+.action-btns .btn-green{
+	background-color:#91c74f !important;
+	color: #fff !important;
+}
+.tenant-add-btn{
+	width: 75px;
+	background-color: transparent;
+	border-radius: 0;
+	border: 1px solid #a0c3d6;
+	color: #a0c3d6;
+}
+.add-section{
+	border-bottom: 5px solid #f6f6f6;
+	padding-bottom: 5px;
+}
+.main-section,.apos-section,.rpos-section,.csr-section{
+	margin-bottom: -15px;
+}
+
+.hr-color{
+	color: #f7f7f7;
+	margin-bottom: 10px;
+}
+.sub-head p{
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.tm-actions button{
+	background-color: transparent;
+	font-size: 16px;
+}
+.tm-actions-content{
+	text-align:center;
+	padding: 10px;
+}
+.tm-actions a.add-icon{
+	border:1px solid silver;
+	padding:7px 15px;
+	text-decoration:none !important;
+}
+
+.tm-actions a.list-icon,.tm-actions a.grid-icon{
+	text-decoration:none !important;
+	padding:5px;
+	width:32px;
+	height:32px;
+	display:inline-block;
+
+	margin-right:5px;
+	border-radius:2px;
+	cursor:pointer;
+	border:1px solid silver;
+}
+.tm-actions a.active{
+	background-color:#004c97;
+	color: #fff;
+	
+}
+
+.bar a{
+	background:silver center center no-repeat;
+	width:32px;
+	height:32px;
+	display:inline-block;
+	text-decoration:none !important;
+	margin-right:5px;
+	border-radius:2px;
+	cursor:pointer;
+}
+
+
+
+/*-------------------------
+	List layout
+--------------------------*/
+
+ul.list{
+	list-style: none;
+	width: 500px;
+	/*margin: 0 auto;*/
+	text-align: left;	
+}
+
+ul.list li{
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+	overflow: hidden;
+}
+
+ul.list li img{
+	/*width:120px;*/
+	/*height:120px;*/
+	float:left;
+	border:none;
+}
+
+ul.list li p{
+	/*margin-left: 135px;*/
+	font-weight: bold;
+	color:#6e7a7f;
+}
+
+/*-------------------------
+	Grid layout
+--------------------------*/
+.tenant-data-section .grid{
+	height: 150px;
+	text-align: center;
+}
+
+
+div.grid img{
+	width: 100%;
+	height: 150px;
+	display:block;
+	border:none;
+}
+
+.reset-margin{
+	margin: 0px;
+}
+
+
+/*ccccccccccccccccccccccccc*/
+
+
+/* Context menu */
+.context-menu{
+ display: none;
+ position: absolute;
+ border: 1px solid black;
+ border-radius: 3px;
+ width: 200px;
+ background: white;
+ box-shadow: 10px 10px 5px #888888;
+}
+
+.Gainsboro {
+ background-color: Gainsboro ;
+}
+.Orange {
+ background-color: Orange ;
+}
+.Plum {
+ background-color: Plum ;
+}
